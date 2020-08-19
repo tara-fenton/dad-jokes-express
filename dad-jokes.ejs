@@ -1,0 +1,12 @@
+<html>
+  <body>
+    <h1>Dad Jokes</h1>
+    <ul>
+      <% jokes.forEach(function(t) { %>
+      <li>
+        <%= t.joke %> - <%= t.funny ? 'funny' : 'not funny' %>
+      </li>
+      <% }); %>
+    </ul>
+  </body>
+</html>
